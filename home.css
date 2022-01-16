@@ -1,10 +1,11 @@
 
 body{
+    /*to cover full screen and remove the spaces */
     margin: auto;
 }
 
 #header{
-    height:60px;
+    height:70px;
     background-color: rgb(209, 179, 179)
 }
 /* Add your comment */
@@ -13,6 +14,7 @@ body{
     color: #13648c;
     margin-left: 1%;
     font-weight: bold;
+    /*icon & social comes on the same line */
     position: absolute
 }
 #social{
@@ -20,18 +22,72 @@ body{
     margin-right: 1%
 }
 a{
+    /*underlines under the social icons disappear */
     text-decoration: none;
 }
 .slogo{
     height: 50px;
     width: 50px
 }
+
 #search{
     height:400px;
     background-image: url('images/foodWallpaper.png');
+    /*to avoid repeat */
     background-repeat: no-repeat;
+     /*to cover all space */
     background-size: cover;
     background-size: 100% 400px
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 43%;
+    margin-top: 1%;
+    position: absolute;
+    /*text comes to center */
+    text-align: center;
+    font-size: 80px;
+}
+
+   /*this will target the span inside the logo id */
+#logo > span{
+    margin-top: 18%;
+    margin-left: -32%;
+    position: absolute;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#Heading{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin-top: 14%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+
+.dropdown{
+    height: 60px;
+    width: 60%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 23%;
+}
+
+select{
+    height: 60px;
+    width: 35%;
+    font-size: 20px
+}
+
+.restaurantSelect{
+    width: 50%;
 }
 
 #quickSearch{
